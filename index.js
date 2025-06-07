@@ -8,7 +8,7 @@ app.use(cors());  // allows frontend access
 app.use(express.json());
 
 app.get('/api/hello', (req, res) => {
-  res.send({ message: "Hello from backend! what the fuck fuck you" });
+  res.send({ message: "Hello from bac" });
 });
 
 app.listen(PORT, () => {
